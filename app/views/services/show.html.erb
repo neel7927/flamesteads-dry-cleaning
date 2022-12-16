@@ -1,0 +1,8 @@
+<h2> <%= @service.name %> </h2>
+<p><%= @service.price %></p>
+<p><%= @service.description %></p>
+
+<%= link_to "Delete #{@service.name}", service_path(@service), method: :delete,
+data: {confirm: "Are you sure?"}%>
+<%= link_to "Edit the service", edit_service_path%>
+<%= link_to "Back to index", services_path%>

@@ -1,0 +1,32 @@
+<div class="hero">
+  <div class="logo-div">
+    <%= image_tag "Logo.png", class:"logo" %>
+ </div>
+  <div class="banner banner-home">
+    <%= image_tag "banner.png", class:"focalimage" %>
+  </div>
+</div>
+
+<div class="text" style="position:fixed; top: 561px;">
+  <h2 style="font-weight:bold; position:fixed; right:44px; bottom:282px;">Professional Dry Cleaning</h2>
+  <h2 style="font-weight:bold;position:fixed; right:94px; bottom:252px;"> at your doorstep</h2>
+  <p style="text-align:center;position:fixed;bottom:196px;">Clean in one blink! A convenient dry cleaning solution that saves you time</p>
+</div>
+
+<%= link_to "Let's get started", new_user_registration_path, style:"position:fixed; top:721px; left:46px; --bs-btn-padding-x: 5rem; border-radius: 4px; background-color: black;", class:"btn btn-dark startbtn" %>
+<%= link_to "Already a user? Login", new_user_session_path, style:"position:fixed; top:769px; left:113px; text-decoration: none; color:black" %>
+
+<%# <section class="launch-page">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="hero-container col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background-color: #3F434E; height:55vh; width:auto; position:relative;">
+          <div class="logo-container">
+            <%= image_tag "Logo.png", class:"logo", style:"height:20vh; display:block; margin-left:auto; margin-right:auto; " %>
+          <%# </div>
+          <div class="launch-banner">
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section> %> %>

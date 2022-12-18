@@ -1,0 +1,67 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 43vh;
+  position: absolute;
+  background-size: cover;
+  margin: auto;
+  width: 93%;
+  margin-top: 22px;
+  bottom: 2px;
+  right: 14px;
+  z-index: 3!important;
+
+  overflow-x: hidden;
+
+  .h1-banner {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    margin-bottom: 27px;
+    font-family: 'Font Awesome 5 Brands';
+  }
+
+  .p-banner {
+    font-size: 22px;
+    font-weight: light;
+    color: rgb(227, 225, 225);
+    line-height: 28px;
+    opacity: .8;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin-bottom: 12px;
+    // font-family: 'Font Awesome 5 Brands';
+  }
+
+}
+
+.banner-home  {
+    border-radius:  49% 51% 77% 0% / 44% 48% 0% 18%;
+    background-size: cover;
+    background-color: #FCD9B8;
+    z-index: 2!important;
+}
+
+
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-navbar {
+  height: 13vh;
+  background-image: linear-gradient(#9eb3d3,#e9eef529)!important;
+}
+
+// height: 294px;
+// width: 88%;
+// margin: auto;
+// margin-top: 22px;
